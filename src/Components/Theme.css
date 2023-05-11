@@ -1,0 +1,29 @@
+:root{
+    --backgroundColor: white;
+    --mainBgColor: #484B6A;
+    --textColor: #D2D3DB;
+}
+.fa-moon{
+    color: skyblue;
+}
+.fa-sun{
+    color: orange;
+}
+.themeButton{
+    text-align: center;
+    background-color:  var(--backgroundColor);
+    border: none;
+    transition: all 0.5s ease-out;
+}
+.lightTheme{
+    --backgroundColor: #F38181;
+    --mainBgColor: #484B6A;
+    --textColor: #D2D3DB;
+    transition: all 0.5s ease-out;
+}
+
+.darkTheme{
+    --backgroundColor: #282c34;
+    --mainBgColor:#242726;
+    transition: all 0.5s ease-out;
+}

@@ -1,0 +1,75 @@
+.fromSelectField{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.fromSelect{
+    display: flex;
+}
+label{
+    margin-bottom: 5px;
+}
+select{
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+select option{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selecctSection{
+    display: flex;
+    align-items: center;
+}
+
+.imgField{
+    width: 60px;
+    height: 45px;
+    margin: 0%; padding: 0%;
+    background-color: white;
+}
+
+.flag{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.selectfields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+label{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width:768px) {
+    select{
+        padding: 5px;
+        font-size: 20px;
+    }
+    .imgField{
+        width: 60px;
+        height: 35px;
+        margin: 0%; padding: 0%;
+        background-color: white;
+    }
+    .selectfields{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80vw;
+    }
+}
